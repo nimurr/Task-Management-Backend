@@ -5,7 +5,6 @@ node_modules
 yarn-error.log
 
 # Environment varibales
-.env*
 !.env*.example
 
 # Code coverage
@@ -15,3 +14,4 @@ app.log*
 
  
 /dist
+config.bat

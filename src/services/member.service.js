@@ -134,8 +134,7 @@ const createMember = async (data) => {
             myWeeklyTasks: weeklyTasks.length > 0 ? weeklyTasks.map(task => task._id) : [],
 
             mainTaskId: data.mainTaskId,
-            assignedManagerName: assignedManagerName || "",
-            // Set to null or an empty array if no tasks are provided
+            assignedManagerName: assignedManagerName || "", 
             dailyMainTaskId: data.dailyMainTaskId || null,
             weeklyMainTaskId: data.weeklyMainTaskId || null,
         };
